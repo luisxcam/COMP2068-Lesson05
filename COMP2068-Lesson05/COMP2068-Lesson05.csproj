@@ -65,10 +65,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\app.css" />
+    <Content Include="css\jquery.mobile-1.4.4.css" />
+    <Content Include="css\jquery.mobile-1.4.4.min.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile-1.4.4.js" />
+    <Content Include="js\jquery.mobile-1.4.4.min.js" />
+    <Content Include="js\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
