@@ -69,6 +69,12 @@
     <Content Include="css\jquery.mobile-1.4.4.css" />
     <Content Include="css\jquery.mobile-1.4.4.min.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="img\sample-05-shuffle.png" />
+    <Content Include="img\sample-302-swords.png" />
+    <Content Include="img\sample-305-palm-tree.png" />
+    <Content Include="img\sample-307-atom.png" />
+    <Content Include="img\sample-316-truck.png" />
+    <Content Include="img\sample-321-like.png" />
     <Content Include="index.html" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.mobile-1.4.4.js" />
@@ -79,9 +85,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>JQuery Mobile for Lesson 05</title>
+
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.4.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Home page section -->
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>Welcome Home</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-a ui-body" data-position="fixed">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active ui-state-persist" data-transition="slide" data-icon="home">Home</a></li>
+                    <li><a href="#aboutme" data-transition="slide" data-icon="info">About Me</a></li>
+                    <li><a href="#projects" data-transition="slide" data-icon="gear">Projects</a></li>
+                    <li><a href="#services" data-transition="slide" data-icon="grid">Services</a></li>
+                    <li><a href="#contactme" data-transition="slide" data-icon="alert">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div role="main" class="ui-content">
+            <p>Vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper.</p>
+        </div>
+        <footer data-role="footer" data-position="fixed">
+            <h4>&copy;2014</h4>
+        </footer>
+    </div>
+
+    <!-- About Me page section -->
+    <div data-role="page" id="aboutme">
+        <header data-role="header">
+            <h1>About me</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-a ui-body" data-position="fixed">
+                <ul>
+                    <li><a href="#home" data-transition="slide" id="chat" data-icon="custom">Chat</a></li>
+                    <li><a href="#aboutme" data-transition="slide" id="email" data-icon="custom">Email</a></li>
+                    <li><a href="#projects" data-transition="slide" id="skull" data-icon="custom">Danger</a></li>
+                    <li><a href="#services" data-transition="slide" id="beer" data-icon="custom">Beer</a></li>
+                    <li><a href="#contactme" data-transition="slide" id="coffee" data-icon="custom">Coffee</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div role="main" class="ui-content">
+            <p>Vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper.</p>
+        </div>
+        <footer data-role="footer" data-position="fixed">
+            <h4>&copy;2014</h4>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
